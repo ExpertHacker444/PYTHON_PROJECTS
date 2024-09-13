@@ -1,6 +1,7 @@
 '''todas las funcion que creemos dentro de una clase son metodos
 osea nos van a servir para crea las acciones que hagan nuestros objetos'''
 
+
 class Celular:
     def __init__(self, nombre, marca): #metodo constructor
         self.nombre = nombre 
@@ -19,6 +20,9 @@ celular1 = Celular("Motorola", "m30")
 celular2 = Celular("Samsung", "s20")
 
 print(celular1.llamar())
+
+
+
 
 
 

@@ -6,7 +6,7 @@ class Persona:
 
 class Empleado(Persona):
     def __init__(self, nombre, edad, nacionalidad, trabajo, salario):
-        super().__init__(nombre, edad, nacionalidad)
+        super().__init__(nombre, edad, nacionalidad) #llamamos al constructor de la clase padre
         self.trabajo = trabajo
         self.salario = salario
 

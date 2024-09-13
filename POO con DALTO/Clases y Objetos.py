@@ -1,9 +1,9 @@
 class Celular(): #clase
     marca = "motorola" #atributos
-    modelo = "m22"
+    modelo = "m22"     
     color = "negro"
 
-celular1 = Celular()
+celular1 = Celular() #objeto celular1 
 print(celular1.color)
 
 
